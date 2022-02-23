@@ -69,4 +69,7 @@ function redirecionamento(){
     })
 
 }
+
+mostrarDescricao();
+
 redirecionamento()

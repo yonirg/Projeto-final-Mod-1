@@ -18,3 +18,5 @@ function mostrarDescricao() {
     DivPrincesa1.addEventListener('mouseover', ocultaPrincesa1);
     DivPrincesa1.addEventListener('mouseleave',mostraPrincesa1);   
 };
+
+mostrarDescricao();

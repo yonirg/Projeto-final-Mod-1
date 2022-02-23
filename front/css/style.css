@@ -4,7 +4,7 @@
 
 }
 body{
-    background-image: url(fundo.jpg);
+    background-image: url(../imagens/fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -16,5 +16,10 @@ body{
     align-items: center;
     max-height: 40%;
     height: auto;
-    
-    }
+}
+ img{
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}

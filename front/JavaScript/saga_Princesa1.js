@@ -22,4 +22,4 @@ function fases (){
         }
 
     }
-    fases()
+setTimeout(fases,2000)

@@ -78,3 +78,24 @@ section div{
 display:none;
 
 }
+#descricao1, #descricao3{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 21%;
+    font-size: 30px;
+    color: rgb(165, 14, 14);
+    font-weight: bold;
+}
+#descricao2{
+    text-align: center;
+    width: 82%;
+    margin-left: 10%;
+    margin-top: 4%;
+    font-size: 30px;
+    color: rgb(165, 14, 14);
+    font-weight: bold;
+
+
+
+}

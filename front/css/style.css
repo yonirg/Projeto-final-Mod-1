@@ -46,3 +46,12 @@ img{
     width: auto;
     background-color: rgba(216, 201, 176, 0.925);
 }
+#header p{
+    font-size: 32px;
+    border: solid;
+    background-color: aqua;
+    border-radius: 10px;
+    color: saddlebrown;
+    border-color: black;
+    padding: 5px ;
+}

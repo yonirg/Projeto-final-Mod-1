@@ -30,12 +30,30 @@ function mostraPrincesa2(){
    descricaoPrincesa2.style.display='none'; 
 };
 
+var DivPrincesa3 = document.getElementsByClassName('princesa')[2];
+var imgPrincesa3 = document.getElementById('princesa3');
+var descricaoPrincesa3 = document.getElementById('descricao3')
+
+function ocultaPrincesa3() {
+    DivPrincesa3.removeChild(imgPrincesa3);
+    DivPrincesa3.style.height = '458px';      
+    DivPrincesa3.style.width = '505.33px';
+    descricaoPrincesa3.style.display='block';
+};
+
+function mostraPrincesa3(){
+    DivPrincesa3.appendChild(imgPrincesa3);
+   descricaoPrincesa3.style.display='none'; 
+};
+
 
 function mostrarDescricao() {  
     DivPrincesa1.addEventListener('mouseover', ocultaPrincesa1);
     DivPrincesa1.addEventListener('mouseleave',mostraPrincesa1); 
     DivPrincesa2.addEventListener('mouseover', ocultaPrincesa2);
-    DivPrincesa2.addEventListener('mouseleave',mostraPrincesa2); 
+    DivPrincesa2.addEventListener('mouseleave',mostraPrincesa2);
+    DivPrincesa3.addEventListener('mouseover', ocultaPrincesa3);
+    DivPrincesa3.addEventListener('mouseleave',mostraPrincesa3);  
 };
 
 mostrarDescricao();

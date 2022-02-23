@@ -17,9 +17,12 @@ body{
     max-height: 40%;
     height: auto;
 }
- img{
+img{
     max-width: 500px;
     max-height: 500px;
     width: auto;
     height: auto;
+}
+#titulo , #principe , #header p{
+    margin-bottom: 50px;
 }

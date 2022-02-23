@@ -57,3 +57,9 @@ function mostrarDescricao() {
 
 mostrarDescricao();
 
+function redirecionamento(){
+    DivPrincesa1.addEventListener('click',function(){
+        location.assign('../html/Princesa1.html')
+    })
+}
+redirecionamento()

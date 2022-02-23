@@ -73,6 +73,7 @@ section div{
 .princesa{
     height: 496px !important;
     width: fit-content;
+    cursor: pointer ;
 }
 .princesa p {
 display:none;

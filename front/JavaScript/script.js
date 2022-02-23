@@ -8,3 +8,8 @@ function ocultaPrincesa1() {
     DivPrincesa1.style.width = '505.33px';
     descricaoPrincesa1.style.display='block';
 };
+
+function mostraPrincesa1(){
+    DivPrincesa1.appendChild(imgPrincesa1);
+   descricaoPrincesa1.style.display='none'; 
+};

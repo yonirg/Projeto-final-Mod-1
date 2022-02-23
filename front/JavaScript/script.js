@@ -13,3 +13,8 @@ function mostraPrincesa1(){
     DivPrincesa1.appendChild(imgPrincesa1);
    descricaoPrincesa1.style.display='none'; 
 };
+
+function mostrarDescricao() {  
+    DivPrincesa1.addEventListener('mouseover', ocultaPrincesa1);
+    DivPrincesa1.addEventListener('mouseleave',mostraPrincesa1);   
+};

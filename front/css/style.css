@@ -70,10 +70,11 @@ section div{
     opacity: 0.9;
     background-color: #fff99999;
 }
-/* .princesa p {
+.princesa{
+    height: 496px !important;
+    width: fit-content;
+}
+.princesa p {
 display:none;
 
-} */
-#descricao1{
-display: none;
 }

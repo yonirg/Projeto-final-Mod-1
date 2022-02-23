@@ -59,17 +59,17 @@ mostrarDescricao();
 
 function redirecionamento(){
     DivPrincesa1.addEventListener('click',function(){
-        location.assign('../html/Princesa1.html')
-    })
+        location.assign('../html/Princesa1.html');  
+    });
     DivPrincesa2.addEventListener('click',function(){
-        location.assign('../html/Princesa2.html')
-    })
+        location.assign('../html/Princesa2.html');
+    });
     DivPrincesa3.addEventListener('click',function(){
-        location.assign('../html/Princesa3.html')
-    })
+        location.assign('../html/Princesa3.html');
+    });
 
-}
+};
 
 mostrarDescricao();
 
-redirecionamento()
+redirecionamento();

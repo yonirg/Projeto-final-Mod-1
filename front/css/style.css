@@ -61,3 +61,11 @@ img{
     flex-wrap: wrap;
     margin-bottom: 30px;
 }
+.princesa{
+    border: solid;
+    border-radius: 40px;
+    border-color: rgba(23, 93, 223, 0.993);
+    opacity: 0.9;
+    background-color: #fff99999;
+
+}

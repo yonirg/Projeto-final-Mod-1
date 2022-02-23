@@ -55,3 +55,9 @@ img{
     border-color: black;
     padding: 5px ;
 }
+.princesas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}

@@ -8,6 +8,8 @@ function fases (){
             var resposta3 = prompt('Ótima escolha!!!\nAgora a princesa já encontrou o príncipe, porém ele está amarrado e machucado:(\nSelecione, então, a opção para a princesa concluir a última etapa com sucesso:\n1 - Ela deve soltá-lo o mais rápido possível e eles fogem juntos, considerando que a princesa estará de prontidão com seu arco e flecha caso seja necessário.\n2 - Ela deve "vasculhar" todo o entorno da casa e dentro ddela para garantir que não haja ninguém que poderá surpreendê-los, e então deve voltar para libertar o príncipe.\n3 - Ela deve retornar para fora do castelo para tentar encontrar alguém que possa ajudá-los.');
             if(resposta3 == '1'){
                 alert('Parabéns!!!!!!\nFinalmente o príncipe e a princesa estão a salvo e poderão viver tranquilamente!!');
+                location.assign('../html/index.html')
+
               
             } else {
                 alert('Game over! A princesa infelizmente foi capturada também');

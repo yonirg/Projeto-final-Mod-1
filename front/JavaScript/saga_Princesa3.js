@@ -1,5 +1,5 @@
 function fases (){
-    alert('A princesa arqueira, sem ser percebida, viu os soldados que estão protegendo a mansão em que o príncipe está sendo mantido.\nSelecione corretamente o que ela deve fazer agora escrevendo o número da opção desejada');
+    alert('A princesa manipuladora, sem ser percebida, viu os soldados que estão protegendo a mansão em que o príncipe está sendo mantido.\nSelecione corretamente o que ela deve fazer agora escrevendo o número da opção desejada');
     var resposta1 = prompt('1 - Ela deve se aproximar e seduzí-los.\n2 - Ela deve utilizar sua habilidade de manipulação para convencê-los que ela é quem dá as ordens\n3 - Começar a correr na direção dos soldados alegando que esá vindo um exército de milhões de pessoas.');
     if(resposta1 == '2'){
         alert('Você escolheu corretamente!!!\nContinue assim nas próximas perguntas ! Vamos lá!!');

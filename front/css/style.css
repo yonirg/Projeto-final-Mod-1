@@ -26,3 +26,14 @@ img{
 #titulo , #principe , #header p{
     margin-bottom: 50px;
 }
+#titulo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: red;
+    border: solid 8px;
+    border-color:darkcyan ;
+    border-radius: 15px;
+    padding: 10px;
+}

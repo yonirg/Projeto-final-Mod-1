@@ -31,3 +31,20 @@ div{
     background-color: rgba(255, 187, 0, 0.795); cursor: pointer;
     padding-top: 25px;
 }
+div p {
+    margin-top: 150px;
+    text-align: center;
+    margin-right: 10%;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: blueviolet;
+}
+#narrativa{
+    margin-top: 150px;
+    text-align: center;
+    width: fit-content;
+    margin-left: 10%;
+}
+#textoNarrativa{
+    width: 84%;
+}

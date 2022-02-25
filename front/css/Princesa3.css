@@ -40,6 +40,6 @@ div p {
     text-align: center;
     width: 90%;
 }
-#textoNarrativa2,#textoNarrativa3,#textoNarrativa4{
-    display: none ;
+#textoNarrativa2,#textoNarrativa3,#textoNarrativa4, #gameOver{
+    display: none;
 }

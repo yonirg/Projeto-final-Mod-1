@@ -20,7 +20,7 @@ function jogo() {
     var resposta3;
     setTimeout(function () {
         if (resposta1 == '2') {
-            resposta2 = prompt('Agora que ela neutralizou todos os soldados, o que ela deve fazer?\n 1 - Entrar na mansão correndo e procurar o príncipe para saír o mais rápido possível.\n2 - Continuar procurando outros possíveis protetores do local que eventualmente possam capturá-la.\n3 - Chamar pelo príncipe e ao mesmo tempo verificar a existência de outros soldados.');
+            resposta2 = prompt('1 - Entrar na mansão correndo e procurar o príncipe para saír o mais rápido possível.\n2 - Continuar procurando outros possíveis protetores do local que eventualmente possam capturá-la.\n3 - Chamar pelo príncipe e ao mesmo tempo verificar a existência de outros soldados.');
             if (resposta2 == '2') {
                 narrativa2.style.display = 'none';
                 narrativa3.style.display = 'block';

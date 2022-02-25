@@ -20,7 +20,7 @@ img{
     margin-left: 50px ;
    }
 div{
-    margin-left: 300px;
+    margin-left: 280px;
 }
 
 #iniciar{
@@ -47,4 +47,7 @@ div p {
 }
 #textoNarrativa{
     width: 84%;
+}
+#textoNarrativa2,#textoNarrativa3,#textoNarrativa4, #gameOver{
+    display: none;
 }

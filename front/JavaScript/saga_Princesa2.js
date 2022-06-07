@@ -15,7 +15,9 @@ function jogo() {
     } else {
         narrativa1.style.display = 'none';
         gameOver.style.display = 'block';
-        location.assign('../html/index.html');
+        setTimeout(() => {
+            location.assign('../html/index.html');  
+        }, 2000);
 
     };
     var resposta2;
@@ -29,7 +31,9 @@ function jogo() {
             } else {
                 narrativa2.style.display = 'none';
                 gameOver.style.display = 'block';
-                location.assign('../html/index.html');
+                setTimeout(() => {
+                    location.assign('../html/index.html');  
+                }, 2000);
             };
             setTimeout(function () {
                 if (resposta2 == '1') {
@@ -40,12 +44,16 @@ function jogo() {
                 if (resposta3 == '1') {
                     narrativa3.style.display = 'none';
                     narrativa4.style.display = 'block';
-                    location.assign('../html/index.html');
+                    setTimeout(() => {
+                        location.assign('../html/index.html');  
+                    }, 2000);
 
                 } else {
                     narrativa3.style.display = 'none';
                     gameOver.style.display = 'block';
-                    location.assign('../html/index.html');
+                    setTimeout(() => {
+                        location.assign('../html/index.html');  
+                    }, 2000);
                 };
             }, 1000);
 

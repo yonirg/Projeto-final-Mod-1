@@ -3,7 +3,7 @@
 ## Esse projeto consiste na criação de um game em que existem 3 personagens que o jogador pode escolher jogar. Além disso, existem 3 fases para cada personagem.
 A interação no jogo foi criada no JavaScript pela função prompt e alert.
 
-## Dependências utilizadas:
+## Tecnologias utilizadas:
 - HTML
 - CSS
 - JavaScript
